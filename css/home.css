@@ -1,0 +1,220 @@
+.line
+{
+    height: 3px;
+    width: 100px;
+    background-color: #C6223A;
+    margin: 0px 5px;
+}
+.heading
+{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px;
+    color: #272C32;
+}
+.ceo_name
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #272C32;
+}
+.container
+{
+    display: flex;
+    padding: 10px;
+
+}
+.container .sub
+{
+    padding: 0em 1.6em;
+
+}
+.item1
+{
+    flex: 2;
+   
+}
+.item2
+{
+    flex: 1;
+    text-align: center;
+    
+}
+.item5
+{
+    text-align: center;
+}
+.sub img
+{
+    height: 200px;
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: gray 2px 2px 15px;
+}
+.sub p
+{
+    padding: 5px;
+    text-align: justify;
+    line-height: 30px;
+}
+#achievement_img
+{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    background-color: black;
+  
+}
+#achievement_img img
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+
+}
+.achievement
+{
+    z-index: 1;
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+}
+.achievement .heading
+{
+    color: white;
+}
+.achievement .item5
+{
+    margin: 0 auto;
+    width: 290px;
+}
+.achievement p
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.item6
+{
+    flex: 1;
+    text-align: center;
+
+}
+.item7
+{
+    flex: 1;
+    text-align: center;
+}
+.item8
+{
+    flex: 1;
+    text-align: center;
+}
+.stat
+{
+    margin: 20px 0px;
+   
+}
+.stat .stat_icon
+{
+    
+    
+}
+.stat .stat_icon i
+{
+    font-size: 92px;
+    
+
+}
+.stat .stat_val
+{
+    
+    /* width: 270px; */
+}
+.stat .stat_val .stat_num
+{
+    font-size: 62px;
+    font-weight: 800;
+}
+.stat .stat_val .stat_discription
+{
+    line-height: 0px;
+   
+}
+
+
+
+@media screen and (max-width: 700px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+    .sub img
+    {
+        height: 200px;
+        width: 150px;
+        margin-top: 0px;
+    }
+    .sub p
+    {
+        line-height: 25px;
+    }
+    .stat .stat_icon i
+    {
+        font-size: 52px;
+    
+
+    }
+    .stat .stat_val
+    {
+    
+        /* width: 270px; */
+    }
+    .stat .stat_val .stat_num
+    {
+        font-size: 42px;
+        font-weight: 800;
+    }
+    .stat .stat_val .stat_discription
+    {
+        line-height: 0px;
+   
+    }
+    .achievement p
+    {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+   
+    
+}
+@media screen and (max-width: 500px)
+{
+    
+    .sub .heading
+    {
+        font-size: 18px;
+    }
+    .sub p
+    {
+        font-size: 14px;
+    }
+    .achievement .heading
+    {
+        font-size: 18px;
+    }
+    .item5 .line
+    {
+        margin-left: 60px;
+    }
+
+     
+}

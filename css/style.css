@@ -1,0 +1,315 @@
+ body
+ {
+     padding: 0;
+     margin: 0;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     overflow-x: hidden;
+ }
+#top-nav
+{
+    background-color: #272C32;
+    height: 30px;
+    padding: 0px 0px 10px 0px;
+    font-size: 14px;
+}
+#top-nav ul:first-child
+{
+   float: left; 
+   line-height: -0px;
+}
+#top-nav ul:last-child
+{
+float: right;
+line-height: -0px;
+}
+#top-nav ul li
+{
+    list-style: none;
+    float: left;
+    padding: 0px 5px;
+    color: white;
+}
+#top-nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+}
+#top-nav ul li:last-child a
+{
+    padding: 0px 20px 0px 0px;
+}
+
+
+
+
+
+#sticky-nav
+{
+    background-color: #F1F1F1;
+    height: 50px;
+    padding: 5px;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    border-bottom: 2px solid #C6223A;
+    z-index: 2;
+}
+#sticky-nav #logo
+{
+    padding: 0px 0px 0px 40px;
+    float: left;
+}
+#sticky-nav img
+{
+    height: 50px;
+    width: 100px;   
+}
+#sticky-nav #menu
+{
+    display: block;
+    float: right;
+}
+#sticky-nav #menu li
+{
+    float: left;
+    list-style: none;
+    padding: 0px 10px;
+}
+#sticky-nav #menu li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    color: #272C32;
+    
+    margin: 5px;
+}
+#sticky-nav #menu li a:hover
+{
+    color: #C6223A;
+    border-bottom: 2px solid #C6223A;
+}
+.active
+{
+    color: #C6223A !important;
+    border-bottom: 2px solid #C6223A;
+}
+
+
+
+#sticky-nav label,#sticky-nav input
+{
+    display: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #272C32; 
+    border-radius: 10px;
+  }
+  
+#news
+{
+    background-color: #272C32;
+    height: 50px;
+}
+#news_title
+{
+    color: white;
+    background-color: #C6223A;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 50px;
+    padding: 0px 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 0px 50px 50px 0px;
+    float: left;
+}
+#news_line
+{
+    float: left;
+    color: white;
+    width: calc( 100% - 120px);
+    font-size: 1em;
+    line-height: 50px;
+    height: 50px;
+}
+
+
+
+
+.news_letter
+{
+    background-color:  #C6223A;
+    text-align: center;
+    padding: 10px;
+}
+.news_letter span
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.news_letter input[type=email]
+{
+    padding: 8px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.news_letter input[type=submit]
+{
+    color: white;
+    background-color: #272C32;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+input:focus
+{
+    outline: none;
+}
+
+
+
+.footer_container
+{
+    display: flex;
+    background-color: #F1F1F1;
+}
+.footer_container .line
+{
+    margin-left: 0px;
+    width: 50px;
+}
+.footer1
+{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+.footer2
+{
+    flex: 1;
+    padding: 30px;
+}
+.footer3
+{
+    flex: 1;
+    padding: 30px;
+}
+.footer4
+{
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+.footer_heading
+{
+    font-size: 18px;
+    font-weight: 600;
+    color: #272C32;
+}
+.footer1 img
+{
+    height: 100px;
+    width: 190px;
+}
+
+.footer_links
+{
+    margin-top: 20px;
+}
+.footer2 a
+{
+    text-decoration: none;
+    color: #272C32;
+    line-height: 25px;
+}
+.footer2 a:hover
+{
+    color: #C6223A;
+}
+.footer3 p
+{
+    color: #272C32;
+}
+
+.copyright
+{
+    background-color: #272C32;
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 850px)
+{
+  
+    #sticky-nav #menu
+    {
+        text-align: center;
+        background-color: #F1F1F1;
+        position: absolute;
+        margin-top: 57px;
+        margin-left: -5px;
+        width: 100%;
+       
+        display: none;
+    }
+    #sticky-nav #menu li
+    {
+        float:none;
+        margin-left: -20px;
+        padding: 10px;
+    }
+    #sticky-nav label
+    {
+        display: block;
+        float: right;
+        padding: 0px 20px 0px 0px;
+        cursor: pointer;
+        font-size: 32px;
+    }
+    #toogle:checked + #menu
+    {
+        display: block;
+    
+    }
+    .footer_container
+    {
+        flex-direction: column;
+    }
+    
+
+}
+
+@media screen and (max-width: 520px)
+{
+    #top-nav
+    {
+        display: none;
+    }
+
+}
