@@ -13,6 +13,7 @@
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/home.css">
+    <script src="jquery.js"></script>
     <title>HOME</title>
 </head>
 <body>
@@ -23,6 +24,7 @@
         padding: 0;
         }
     </style>
+    <div id="target_top_icon"></div>
 <div id="top-nav">
     <ul>
         <li><i class="fas fa-phone-alt"></i> +923067006447</li>
@@ -34,7 +36,6 @@
         <li><a href=""><i title="Instagram" class="fab fa-instagram"></i></a></li>
     </ul>
 </div>
-
 <div id="sticky-nav">
     <div id="logo">
        <a href="">
@@ -54,7 +55,9 @@
         </ul>
     </div>
 </div>
-
+<div class="fix_bottom_icon">
+    <a id="remove_nav_clr" href="#target_top_icon"><i class="fas fa-arrow-up"></i></a>
+</div>
  <!-- Insert to your webpage where you want to display the slider -->
  <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:100%;margin:0 auto;">
     <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
@@ -143,7 +146,7 @@
                 </div>
                 <div class="stat_val">
                     <div class="stat_num" data-target="3657">0</div>
-                    <div class="stat_discription">Currently Enroll Students</div>
+                    <div class="stat_discription">Enroll Students</div>
                 </div>
               </div>
         </div>
@@ -191,6 +194,11 @@
         <br>
         <a href="">CONTACT US</a>
        </div>
+      <div class="social_media">
+        <a target="_blank" href=""><i title="Facebook" class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href=""><i title="Youtube" class="fab fa-youtube"></i></a>
+        <a target="_blank" href=""><i title="Instagram" class="fab fa-instagram"></i></a>
+      </div>
     </div>
     <div class="footer3">
         <div class="footer_heading">ADDRESS</div>
@@ -209,12 +217,15 @@
         </p>
     </div>
     <div class="footer4">
+        <div class="footer_heading">LOCATION</div>
+        <div class="line"></div>
+        <br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1706.1088444821928!2d73.0016083969835!3d31.214697800000966!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a716396c2a36322!2sFLIKTUS!5e0!3m2!1sen!2s!4v1610467882818!5m2!1sen!2s" 
-        width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0"></iframe>
     </div>
 </div>
 <div class="copyright">
-    SCHOOL MANAGEMENT SYSTEM - Powered By FLIKTUS - <i class="fas fa-copyright"></i> 2020 All Rights Reserved
+    SCHOOL MANAGEMENT SYSTEM - Powered By FLIKTUS - <i class="fas fa-copyright"></i> <script>document.write(new Date().getFullYear())</script> All Rights Reserved
 </div>
 
 
