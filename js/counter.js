@@ -74,3 +74,29 @@ $('a[href*="#"]')
 			}
 		}
 	});
+
+
+	//slider settings index
+	var getImg = document.getElementsByClassName("javasciptLayerSettings");
+	var imgLength = getImg.length;
+	
+	for(i=-0;i<imgLength;i++)
+		{
+			var getImgNode = getImg[i];
+			var getAttribute1 = getImgNode.getAttribute("title");  
+			var getAttribute2 = getImgNode.getAttribute("data-description"); 
+			console.log(getAttribute1);
+			console.log(getAttribute2);
+		}
+
+
+
+	
+	
+	// for(i=-0;i<=getListLength;i++)
+	// {
+	// 	var getLists =document.querySelectorAll(".top_layer_slider img");
+	// 	console.log(getLists);
+	// 	console.log(i);
+	// }
+	//console.log(getattribute1);

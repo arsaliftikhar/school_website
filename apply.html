@@ -12,9 +12,9 @@
     <!-- End of head section HTML codes -->
     
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/apply.css">
     <script src="jquery.js"></script>
-    <title>HOME</title>
+    <title>APPLY ONLINE</title>
 </head>
 <body>
  
@@ -46,9 +46,9 @@
     <input type="checkbox" id="toogle">
     <div id="menu">
         <ul>
-            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="index.html" >HOME</a></li>
             <li><a href="gallery.html">GALLERY</a></li>
-            <li><a href="apply.html">APPLY ONLINE</a></li>
+            <li><a href="#" class="active">APPLY ONLINE</a></li>
             <li><a href="downloads.html">DOWNLOADS</a></li>
             <li><a href="portal.html">PORTAL</a></li>
             <li><a href="contact.html">CONTACT US</a></li>
@@ -59,7 +59,7 @@
     <a id="remove_nav_clr" href="#target_top_icon"><i class="fas fa-arrow-up"></i></a>
 </div>
  <!-- Insert to your webpage where you want to display the slider -->
-<div class="top_layer_slider">
+ <div class="top_layer_slider">
     <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:100%;margin:0 auto;">
         <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
             <ul class="amazingslider-slides" style="display:none;">
@@ -84,91 +84,73 @@
 </div>
 <br>
 <br>
-<div class="container">
-    <div class="item1 sub">
-        <div class="heading">CHAIRMAN MESSAGE</div>
+   <div class="text_center">
+        <div class="heading">STUDENT REGISTRATION FORM</div>
         <div style="width: 150px;" class="line"></div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas architecto quo velit harum doloremque eaque sunt error expedita vero vitae soluta fugiat necessitatibus dolorum similique placeat, doloribus dolorem nobis.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas architecto quo velit harum doloremque eaque sunt error expedita vero vitae soluta fugiat necessitatibus dolorum similique placeat, doloribus dolorem nobis.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas architecto quo velit harum doloremque eaque sunt error expedita vero vitae soluta fugiat necessitatibus dolorum similique placeat, doloribus dolorem nobis.
-        </p>
-    </div>
-    <div class="item2 sub">
-        <img src="material/chairman.jpg" alt="">
-        <div class="ceo_name">
-            Arsal Iftikhar
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="item3 sub">
-        <div class="heading">OUR VISION</div>
-        <div class="line"></div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas architecto quo velit harum doloremque eaque sunt error expedita vero vitae soluta fugiat necessitatibus dolorum similique placeat, doloribus dolorem nobis.
-        </p>
-    </div>
-</div>
-<div class="container">
-    <div class="item4 sub">
-        <div class="heading">OUR MISSION</div>
-        <div style="width: 120px;" class="line"></div>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas architecto quo velit harum doloremque eaque sunt error expedita vero vitae soluta fugiat necessitatibus dolorum similique placeat, doloribus dolorem nobis.
-        </p>
-    </div>
-</div>
-<br>
-<div class="achievement">
-    <div class="item5">
-        <div class="heading">OUR ACHIEVEMENTS</div>
-        <div style="width: 150px;" class="line"></div>
-    </div>
-        <p>
-        Here You Can Review Some Statistics About Our School
-       </p>
-       <br>
-       <div class="container">
-        <div class="item6 ">
-            <div class="stat">
-                <div class="stat_icon">
-                    <i class="fas fa-user-graduate"></i>
-                </div>
-                <div class="stat_val">
-                    <div class="stat_num" data-target="365057">0</div>
-                    <div class="stat_discription">Pass Students</div>
-                </div>
-              </div>
-        </div>
-        <div class="item7 ">
-            <div class="stat">
-                <div class="stat_icon">
-                    <i class="fas fa-user-graduate"></i>
-                </div>
-                <div class="stat_val">
-                    <div class="stat_num" data-target="3657">0</div>
-                    <div class="stat_discription">Enroll Students</div>
-                </div>
-              </div>
-        </div>
-        <div class="item8 ">
-            <div class="stat">
-                <div class="stat_icon">
-                    <i class="fas fa-user-tie"></i>
-                </div>
-                <div class="stat_val">
-                    <div class="stat_num" data-target="87">0</div>
-                    <div class="stat_discription">Current Staff</div>
-                </div>
-              </div>
-        </div>
-    </div>
-</div>
+   </div>
+   <form action="">
+    <div class="container">
+       <div class="item1">
 
-<div id="achievement_img">
-    <img src="material/slides/slider2.jpg" alt="">
-</div>
+       </div>
+       <div class="item2">
+        <div id="error_message">
+            <p>Your Enter Wrong Details! Try Again</p>
+        </div>
+            <label for="">First Name</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Last Name</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Email</label>
+            <br>
+            <input id="email" type="email">
+            <br>
+            <label for="">Gender</label>
+            <br>
+            Male <input type="radio" name="gender">
+            Female <input type="radio" name="gender">
+            <br>
+            <label for="">Date Of Birth</label>
+            <br>
+            <input type="date">
+            <br>
+            <label for="">Phone</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Nationality</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Address</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="">Why you choose our school?</label>
+            <br>
+            <textarea name="" id="" cols="30" placeholder="Type Here...." rows="8"></textarea>
+            <br>
+            <br>
+            <input class="button" type="submit">
+       </div>
+       <div class="item3">
+
+       </div>
+       </div>
+   </form>
+
+
+
+
+
+
+
+<br>
+<br>
 <div class="news_letter">
    <form action="">
     <span>Subscribe To Our Newsletter</span>
@@ -229,8 +211,6 @@
 <div class="copyright">
     SCHOOL MANAGEMENT SYSTEM - Powered By FLIKTUS - <i class="fas fa-copyright"></i> <script>document.write(new Date().getFullYear())</script> All Rights Reserved
 </div>
-
-
 
 <script src="js/counter.js"></script>
 </body>

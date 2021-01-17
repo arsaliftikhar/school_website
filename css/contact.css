@@ -1,0 +1,118 @@
+.text_center
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 185px;
+}
+.line
+{
+    height: 3px;
+    width: 100px;
+    background-color: #C6223A;
+    margin: 0px 5px;
+}
+.heading
+{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px;
+    color: #272C32;
+}
+#error_message
+{
+    background-color: #f7504f;
+    padding: 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.container
+{
+
+    display: flex;
+    padding: 50px;
+
+}
+.item1
+{
+    flex: 1;
+}
+.item2
+{
+    flex: 2;
+    padding: 10px;
+}
+.item3
+{
+    flex: 1;
+}
+label
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+    margin: 10px 0px;
+}
+input[type="text"],#email,input[type="date"],textarea
+{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+}
+.button
+{
+    background-color: #272C32;
+    color: white;
+    font-size: 18px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    margin-right: -12px;
+}
+
+@media screen and (max-width: 850px)
+{
+   
+    .container
+    {
+        flex-direction: column;
+    }
+    .heading
+    {
+        font-size: 22px;
+    }
+    .text_center
+    {
+        width: 145px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px)
+{
+    
+   
+    .heading
+    {
+        font-size: 18px;
+    }
+    .text_center
+    {
+        width: 125px;
+    }
+    label
+    {
+        font-size: 14px;
+    }
+    input[type="text"],#email,input[type="date"],textarea
+    {
+        font-size: 14px;
+    }
+     
+}
